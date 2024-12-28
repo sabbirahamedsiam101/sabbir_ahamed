@@ -469,10 +469,18 @@ section{
     font-size: 14px;
 }
 
-.cv_banner_img{
+/* .cv_banner_img{
     position: absolute;
     right: 0;
     bottom: 2px;
+} */
+.cv_banner_img {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    /* filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.7));  */
+    filter: brightness(1.2) saturate(0.7) drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5)); /* Increase brightness, adjust saturation, and add shadow */
+    
 }
 
 /********************************************************
